@@ -1,0 +1,37 @@
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: #bbb;
+}
+ul {
+    list-style-type: none;
+}
+header{
+    margin: 10px auto;
+    background-color: #6bbaa7;
+    border: 1px solid #bbb;
+    box-shadow: 0 0 30px #777;
+    text-align: center;
+}
+
+header img {
+max-width: 100px;
+}
+div.title {
+    display: inline-block;
+    text-align: center;
+}
+nav{
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: #bbb;
+    margin: none;
+    background-color: #fba100;
+    border: 1px solid #bbb;
+    box-shadow: 0 0 30px #777;
+    text-align: center;
+}
