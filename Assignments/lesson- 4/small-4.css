@@ -9,17 +9,16 @@ ul {
     list-style-type: none;
 }
 header{
-    margin: 10px auto;
+    margin: none auto;
     background-color: #6bbaa7;
     border: 1px solid #bbb;
-    box-shadow: 0 0 30px #777;
     text-align: center;
 }
 
 header img {
 max-width: 100px;
 }
-div.title {
+div.Title {
     display: inline-block;
     text-align: center;
 }
@@ -32,6 +31,5 @@ nav{
     margin: none;
     background-color: #fba100;
     border: 1px solid #bbb;
-    box-shadow: 0 0 30px #777;
     text-align: center;
 }
