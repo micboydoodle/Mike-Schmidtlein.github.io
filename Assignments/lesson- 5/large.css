@@ -32,7 +32,6 @@
         margin: 0px;
     }
     nav ul li {
-        display: inline-block;
         border: 1px solid white;
     }
     nav{
@@ -57,43 +56,89 @@
     }
     section.weathersummary {
         position: absolute;
-        top: 450px;
+        top: 600px;
         left: 45px;
         text-align: center;
         line-height: 0px;
         background: #6bbaa7;
         border: 1px solid #000;
         padding: 1.5rem;
-        box-shadow: 0 0 30px #fff;
-        opacity: .5;
+        box-shadow: 0 0 30px black;
+        opacity: .75;
+    }
+    section.weathersummary h3 {
+        text-decoration: underline;
+        padding: 0px 0px 10px 0px;
     }
     .textyellow {
         color: yellow
     }
     div.article {
-        margin: 10px 0px 0px 0px;
+        margin: 50px 0px 50px 0px;
         background-color: #6c648b;
-        border: 1px solid #000;
+        border: 1px solid #6c648b;
+    }
+    main h3 {
+        margin: 5px 0px 0px 10px;
+    }
+    main h4 {
+        margin: 0px 0px 0px 20px;
+    }
+    div.articleinfo {
+        margin: 0px 0px 0px 10px;
     }
     img.articleimage {
         display: block;
-        width: 94%;
-        margin: 10px;
+        width: 89%;
+        margin: 20px;
+        box-shadow: 0 0 20px black;
     }
     footer {
         margin: none auto;
         background-color: #b6a19e;
-        text-align: center;
-        
+        text-align: center; 
+    }
+    .prestonmap {
+        width: 50%;
     }
     div.footerspace {
         line-height: 5px;
     }
     .icon {
         width: 1em;
-        display: inline;
     }
     div.footerinfo {
-        background-color: #fba100
+        background-color: #fba100;
+        margin: 10px 0px 0px 0px;
+        font-size: 10px;
+        text-align: center;
+        line-height: 10px;
+        border: 1px solid #fba100;
     }
+    .pin {
+        display: inline-block;
+    }
+    .phoneicon{
+        width: 1em;
+    }
+    .phone {
+        display: inline-block;
+    }
+    .emailicon {
+        width: 1em;
+    }
+    .email {
+        display: inline-block;
+    }
+    .fbicon {
+        width: 2em;
+    }
+    .igicon {
+        width: 2em;
+    }
+    .ticon {
+        width: 2em;
+    }
+    .yticon {
+        width: 2em;
     }
