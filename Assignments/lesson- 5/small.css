@@ -1,0 +1,118 @@
+
+
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+}
+header{
+    margin: none auto;
+    background-color: #6bbaa7;
+    text-align: center;
+}
+header h2 {
+    margin-bottom: 0px;
+}
+header.motto {
+    margin-top: 0px;
+}
+header img {
+max-width: 100px;
+}
+div.Title {
+    display: inline-block;
+    text-align: center;
+}
+nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li {
+    border: 1px solid white;
+}
+nav{
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: #bbb;
+    margin: 0px;
+    background-color: #fba100;
+    border: 1px solid #bbb;
+    text-align: center;
+}
+div.pagetitle {
+    text-align: center;
+}
+img.prestonimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+section.weathersummary {
+    position: absolute;
+    top: 600px;
+    left: 45px;
+    text-align: center;
+    line-height: 0px;
+    background: #6bbaa7;
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px black;
+    opacity: .75;
+}
+section.weathersummary h3 {
+    text-decoration: underline;
+    padding: 0px 0px 10px 0px;
+}
+.textyellow {
+    color: yellow
+}
+div.article {
+    margin: 50px 0px 50px 0px;
+    background-color: #6c648b;
+    border: 1px solid #6c648b;
+}
+.articleheading {
+
+}
+main h3 {
+    margin: 5px 0px 0px 10px;
+}
+main h4 {
+    margin: 0px 0px 0px 20px;
+}
+div.articleinfo {
+    margin: 0px 0px 0px 10px;
+}
+img.articleimage {
+    display: block;
+    width: 89%;
+    margin: 20px;
+    box-shadow: 0 0 20px black;
+}
+footer {
+    margin: none auto;
+    background-color: #b6a19e;
+    text-align: center;    
+}
+.prestonmap {
+    width: 50%;
+}
+div.footerspace {
+    line-height: 5px;
+}
+.icon {
+    width: 1em;
+    display: inline;
+}
+div.footerinfo {
+    background-color: #fba100
+}
+}
