@@ -1,8 +1,6 @@
-
-
 body { 
-    font-size: 16px; 
-    line-height: 32px;
+    font-size: 12px; 
+    line-height: 20px;
     font-family: 'Raleway', sans-serif;
     color: black;
     background-color: white;
@@ -14,6 +12,7 @@ header{
     margin: none auto;
     background-color: #6bbaa7;
     text-align: center;
+    color: white;
 }
 header h2 {
     margin-bottom: 0px;
@@ -57,7 +56,7 @@ img.prestonimage {
 }
 section.weathersummary {
     position: absolute;
-    top: 600px;
+    top: 500px;
     left: 45px;
     text-align: center;
     line-height: 0px;
@@ -73,6 +72,12 @@ section.weathersummary h3 {
 }
 .textyellow {
     color: yellow
+}
+.forcast {
+    display: none;
+}
+.forcastbox {
+    display: none;
 }
 div.article {
     margin: 50px 0px 50px 0px;
