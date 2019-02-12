@@ -9,7 +9,6 @@ ul {
     list-style-type: none;
 }
 header{
-    margin: none auto;
     background-color: #6bbaa7;
     text-align: center;
     color: white;
@@ -100,7 +99,6 @@ img.articleimage {
     box-shadow: 0 0 20px black;
 }
 footer {
-    margin: none auto;
     background-color: #b6a19e;
     text-align: center; 
 }
