@@ -1,8 +1,3 @@
-<html>
-<head>
-  <title>Current Date</title>
-  <script>
-{
 	var todaysdate = new Date();
     var daysofweek = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
     var dayofWeek = daysofweek [todaysdate.getDay()];
@@ -14,9 +9,3 @@
     var today = dayofWeek + ", " + dayofMonth + " " + currentMonth + " " + year;
     
     document.getElementById("currentdate").innerHTML = today;
-}
-  </script>
-</head>
-<body>
-</body>
-</html>

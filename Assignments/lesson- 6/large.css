@@ -53,14 +53,9 @@
     nav ul.hide {
         display: block;
     }
+    /*---------------------------------Main-------------------*/
     div.pagetitle {
         text-align: center;
-    }
-    img.prestonimage {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
     }
     section.weathersummary {
         position: absolute;
@@ -128,6 +123,7 @@
         margin: 20px;
         box-shadow: 0 0 20px black;
     }
+    /*--------------------Footer---------------------------*/
     footer {
         background-color: #b6a19e;
         text-align: left; 
