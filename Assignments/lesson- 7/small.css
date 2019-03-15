@@ -1,0 +1,169 @@
+/*---------------------------------Header----------------------------------------------*/
+body { 
+    font-size: 12px; 
+    line-height: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    background-color: white;
+}
+header{
+    background-color: #6bbaa7;
+    text-align: center;
+    color: white;
+}
+header h2 {
+    margin-bottom: 0px;
+}
+header.motto {
+    margin-top: 0px;
+}
+header img {
+max-width: 100px;
+}
+div.Title {
+    display: inline-block;
+    text-align: center;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+nav {
+    background-color: #fba100;
+    font-family: 'Raleway', sans-serif;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .1rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top:1px solid rgba(0,0,0,0.3)
+}
+nav ul li a.active {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+nav ul li a:hover {
+    background: rgba(0,0,0,0.4);
+}
+nav ul.hide {
+    display: none;
+}
+/*----------------------------------Main-------------------------------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+main figure.heroimage {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+main figure.heroimage img {
+    width:100%;
+}
+div.pagetitle {
+    text-align: center;
+}
+section.weathersummary {
+    position: absolute;
+    top: 500px;
+    left: 45px;
+    text-align: center;
+    line-height: 0px;
+    background: #6bbaa7;
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px black;
+    opacity: .75;
+}
+section.weathersummary h3 {
+    text-decoration: underline;
+    padding: 0px 0px 10px 0px;
+}
+.textyellow {
+    color: yellow
+}
+.forcast {
+    display: none;
+}
+.forcastbox {
+    display: none;
+}
+div.article {
+    margin: 50px 0px 50px 0px;
+    background-color: #6c648b;
+    border: 1px solid #6c648b;
+}
+main h3 {
+    margin: 5px 0px 0px 10px;
+}
+main h4 {
+    margin: 0px 0px 0px 20px;
+}
+div.articleinfo {
+    margin: 0px 0px 0px 10px;
+}
+img.articleimage {
+    display: block;
+    width: 89%;
+    margin: 20px;
+    box-shadow: 0 0 20px black;
+}
+/*--------------------------------------Footer--------------------------------------*/
+footer {
+    background-color: #b6a19e;
+    text-align: center; 
+}
+.prestonmap {
+    width: 50%;
+}
+div.footerspace {
+    line-height: 5px;
+}
+.icon {
+    width: 1em;
+}
+div.footerinfo {
+    background-color: #fba100;
+    margin: 10px 0px 0px 0px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 10px;
+    border: 1px solid #fba100;
+}
+.pin {
+    display: inline-block;
+}
+.phoneicon{
+    width: 1em;
+}
+.phone {
+    display: inline-block;
+}
+.emailicon {
+    width: 1em;
+}
+.email {
+    display: inline-block;
+}
+.fbicon {
+    width: 2em;
+}
+.igicon {
+    width: 2em;
+}
+.ticon {
+    width: 2em;
+}
+.yticon {
+    width: 2em;
+}
