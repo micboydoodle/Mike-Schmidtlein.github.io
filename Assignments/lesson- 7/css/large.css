@@ -140,7 +140,6 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             margin: auto;
-            max-width: auto;
             text-align: center;
             width: 100%;
         }
