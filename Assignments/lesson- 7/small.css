@@ -77,8 +77,8 @@ div.pagetitle {
 }
 section.weathersummary {
     position: absolute;
-    top: 50px;
-    left: 45px;
+    top: 225px;
+    left: 300px;
     text-align: center;
     line-height: 0px;
     background: #6bbaa7;
@@ -129,6 +129,14 @@ div.galleryImages figure:hover {
     box-shadow: 0 0 50px #333;
 }
 /*--------------------------------------Footer--------------------------------------*/
+footer aside{
+    display: block;
+}
+div.mapouter {
+    display: block;
+    width: 100%;
+    height: 50%;
+
 footer {
     background-color: #b6a19e;
     text-align: center; 

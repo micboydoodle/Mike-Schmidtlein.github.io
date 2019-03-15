@@ -58,6 +58,9 @@
         padding: 0 2%;
         min-height: 10rem;
     }
+    div.pagetitle {
+        text-align: center;
+    }
     main figure.heroimage {
         width: 75%;
         margin-left: auto;
@@ -67,13 +70,10 @@
     main figure.heroimage img {
         width:100%;
     }
-    div.pagetitle {
-        text-align: center;
-    }
     section.weathersummary {
         position: absolute;
-        top: 50px;
-        left: 50px;
+        top: 250px;
+        left: 300px;
         text-align: center;
         line-height: 0px;
         background: #6bbaa7;
