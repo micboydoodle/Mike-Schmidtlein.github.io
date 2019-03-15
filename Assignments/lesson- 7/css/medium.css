@@ -3,9 +3,10 @@
 
 
 /*----------------------------------Main---------------------------------*/
-div.galleryImages {
-    grid-template-columns: repeat(2, 1fr)
+.weatherGallery {
+    grid-template-columns: repeat(2, 1fr);
 }
+
 
 /*----------------------------------Footer---------------------------------*/
 
