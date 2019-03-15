@@ -20,33 +20,38 @@
             <div class="motto">Weather You Can Count On</div>
         </div> 
     </header>
-    <nav>
-        <button onclick="toggleMenu()">☰</button>
-            <ul id="primaryNav" class="hide">
-                <li><a href="Home.html">Home</a></li>
-                <li class="active"><a href="preston.html">Preston</a></li>
-                <li><a href="sodasprings.html">Soda Springs</a></li>
-                <li><a href="fishhaven.html">Fish Haven</a></li>
-                <li><a href="stormhaven">Storm Haven</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
+    <div class="navigationMenu"></div>
+        <nav>
+            <button onclick="toggleMenu()">☰</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="#">Home</a></li>
+                    <li class="active"><a href="preston-7.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Haven</a></li>
+                    <li class="active"><a href="gallery.html">Gallery</a></li>
                     
             </ul>   
-        </nav>  
+        </nav> 
+    </div> 
     <main> 
         <div class="pagetitle"><h1>The City of Preston</h1></div>
-    <div class="weathersummarydiv"></div>
+    <div class="weathersummarydiv">
+        <picture>
         <figure class="heroimage">
-            <img src="cit230_image_franklinOriginal.jpeg">
-            
+            <img src="CIT230_image_franklin_250.jpeg" alt="prestonimage" sizes="100vw"
+            srcset="CIT230_image_franklin_400.jpeg 400w, CIT230_image_franklin_800.jpeg 900w">
+        </picture> 
         </figure>
         <section class="weathersummary">
             <h3>Weather Summary</h3>
-            <p>Current: <span class="textyellow">Sunny</span></p>
-            <p>High: <span class="textyellow">76°F</span></p>
-            <p>Wind Chill: <span class="textyellow">78°F</span></p>
-            <p>Humidity: <span class="textyellow">69%</span></p>
-            <p>Wind Speed: <span class="textyellow">5 mph</span></p>
+            <p>Current: <span id="currentTemperature">70</span>°F</p>
+            <p>High: <span id="dailyHigh">76</span>°F</p>
+            <p>Wind Chill: <span id="windChill"></span>°F</p>
+            <p>Humidity: <span id="humidity"></span>69%</p>
+            <p>Wind Speed: <span id="windSpeed">5</span>mph</p>
         </section>
+    </div>
     <div class="forcast"><h3>5 Day Forcast</h3></div>
     <div class="forcastbox">
        <table>
@@ -70,8 +75,9 @@
     </div>
     </main>
     <footer>
-<div class="footertotal">
-        <h3>South East Idaho Weather</h3>
+        <aside>
+            <div class="contactInfo">
+            <h3>South East Idaho Weather</h3>
            <div>
                <img src="https://freeiconshop.com/wp-content/uploads/edd/location-pin-outline-filled.png" alt="icon" class="icon">
                <div class="pin"><p>30 N 1st E</p></div>
@@ -86,12 +92,20 @@
                 <img src="https://png.pngtree.com/element_our/sm/20180626/sm_5b321ca31d522.png" alt="intagram icon" class="igicon">
                 <img src="https://png.pngtree.com/element_our/sm/20180301/sm_5a9797d302f17.png" alt="twitter icon" class="ticon">
                 <img src="https://png.pngtree.com/element_our/sm/20180301/sm_5a9797d5c93d3.png" alt="Youtube Icon" class="yticon">
-                
             </div>
+        </div>
+            <div class="mapouter" style="position: relative; overflow: hidden;";>
+                    <div class="gmap_canvas">
+                        <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=preston%20idaho&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
+                    </div>
+                    <style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
+                    </style></a>
+            </div>
+            
        
-            <div> <img src="//img.bestplaces.net/images/city/1665260_ID_Preston.png" alt="Preston Map" class="prestonmap"></div>
-<div></div>
-</div>
+        </aside>   
+
             <div class="footerinfo">
                <p> ©2020 South East Idaho Weather | Attributions | Mike Schmidtlein
                    </p> 
@@ -100,6 +114,7 @@
             </footer>    
             <script src="currentdate.js"></script> 
             <script src="hamburger.js"></script>  
+            <script src="windchill.js"></script>  
             
 </body>
 </html>
