@@ -159,6 +159,9 @@ fieldset h2 {
     margin: 4px 2px;
     cursor: pointer;
 }
+.thankyoupage {
+    text-align: center;
+}
 /*--------------------------------------Footer--------------------------------------*/
 div.mapouter {
     display: block;
