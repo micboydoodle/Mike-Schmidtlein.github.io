@@ -3,7 +3,7 @@
 
 
 /*----------------------------------Main---------------------------------*/
-.galleryImages {
+div.galleryImages {
     grid-template-columns: repeat(2, 1fr);
 }
 
