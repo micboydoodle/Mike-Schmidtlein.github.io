@@ -220,7 +220,28 @@ img.homePhoto {
     max-width: 80%;
     margin-bottom: 10px;
 }
+/*---------event----------*/
+section.events {
+    display: block;
+    position: center;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #6c648b;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+section.events li {
+    margin-top: 15px;
+}
 
+section.events h2 {
+    color:#fba100;
+    line-height: 1;
+    
+}
 /*--------------------------------------Footer--------------------------------------*/
 div.mapouter {
     display: block;

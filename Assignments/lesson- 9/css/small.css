@@ -192,6 +192,7 @@ article#homeTowns {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.4);
     grid-gap: 10px;
     min-height: 200px;
+    
 }
 
 #homeTowns div img {
