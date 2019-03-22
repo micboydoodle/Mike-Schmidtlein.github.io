@@ -7,7 +7,7 @@ weathForecast.onload = function() {
     console.log(forecast);
 
     var listDay = [];
-    var listIconType = [];
+    var listIcon = [];
     var listTempurature = [];
 
     for(i = 0; i < forecast.list.length; ++i) {
@@ -21,9 +21,9 @@ weathForecast.onload = function() {
             listDay.push(pickDate);
 
             //Weather Icon
-            var iconType = forecast.list[i].weather["0"].icon;
-            var iconPath = "https://openweathermap.org/img/w/" + iconType + ".png";
-            listIconType.push(iconPath);
+            var icon = forecast.list[i].weather["0"].icon;
+            var iconPath = "https://openweathermap.org/img/w/" + icon + ".png";
+            listIcon.push(iconPath);
 
             //Tempurater
             var temp = forecast.list[i].main.temp_max;
@@ -35,24 +35,24 @@ weathForecast.onload = function() {
     }
 
     //Forecast day
-    document.getElementById('day1').innerHTML = listDay[0];
-    document.getElementById('day2').innerHTML = listDay[1];
-    document.getElementById('day3').innerHTML = listDay[2];
-    document.getElementById('day4').innerHTML = listDay[3];
-    document.getElementById('day5').innerHTML = listDay[4];
+    document.getElementById('day0').innerHTML = listDay[0];
+    document.getElementById('day1').innerHTML = listDay[1];
+    document.getElementById('day2').innerHTML = listDay[2];
+    document.getElementById('day3').innerHTML = listDay[3];
+    document.getElementById('day4').innerHTML = listDay[4];
 
     //Weather icon 
-    document.getElementById('weather_icon1').src = listIconType[0];
-    document.getElementById('weather_icon2').src = listIconType[1];
-    document.getElementById('weather_icon3').src = listIconType[2];
-    document.getElementById('weather_icon4').src = listIconType[3];
-    document.getElementById('weather_icon5').src = listIconType[4];
+    document.getElementById('weatherIcon0').src = listIcon[0];
+    document.getElementById('weatherIcon1').src = listIcon[1];
+    document.getElementById('weatherIcon2').src = listIcon[2];
+    document.getElementById('weatherIcon3').src = listIcon[3];
+    document.getElementById('weatherIcon4').src = listIcon[4];
 
     //Tempurature
-    document.getElementById('highTemp1').innerHTML = listTempurature[0];
-    document.getElementById('highTemp2').innerHTML = listTempurature[1];
-    document.getElementById('highTemp3').innerHTML = listTempurature[2];
-    document.getElementById('highTemp4').innerHTML = listTempurature[3];
-    document.getElementById('highTemp5').innerHTML = listTempurature[4];
+    document.getElementById('Temp0').innerHTML = listTempurature[0];
+    document.getElementById('Temp1').innerHTML = listTempurature[1];
+    document.getElementById('Temp2').innerHTML = listTempurature[2];
+    document.getElementById('Temp3').innerHTML = listTempurature[3];
+    document.getElementById('Temp4').innerHTML = listTempurature[4];
 
 }
