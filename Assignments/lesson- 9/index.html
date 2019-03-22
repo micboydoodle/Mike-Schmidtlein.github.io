@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" > 
+    <title>Preston Weather | Week 7 Assignment</title>
+    <meta name="author" content="Mike Schmidtlein | CIT 230 BYU-Idaho">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+</head>
+
+<body>
+    <!--Header-->>
+    <header>
+        <img src="https://www.freeiconspng.com/uploads/weather-icon-png-5.png" width="350" alt="Weather Drawing Icon">
+        <div class="Title">
+            <h2>South East Idaho Weather</h2>
+            <div class="motto">Weather You Can Count On</div>
+        </div> 
+    </header>
+    <!--Navigation-->
+    <div class="navigationMenu"></div>
+         <nav>
+        <button onclick="toggleMenu()">☰</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="preston-7.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Haven</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                    
+            </ul>   
+        </nav>  
+    
+    <!--Content-->
+    <main> 
+        <div class="weathersummarydiv">
+            <figure class="heroimage">
+                <img src="images/idaho-map-200.png" alt="prestonimage" sizes="100vw"
+                srcset="images/idaho-map-600.png 600w, images/idaho-map-800.png 900w">
+            </figure>
+        </div>
+
+        <article class="homeTowns">
+
+        </article>
+        
+
+    </main>
+  
+  
+  
+    <!--Footer-->
+    <footer>
+       
+        </aside>   
+
+            <div class="footerinfo">
+               <p> ©2019 South East Idaho Weather | Attributions | Mike Schmidtlein
+                   </p> 
+                   <span id="currentdate"></span>
+            </div>   
+            </footer>
+    <!--Scripts-->    
+            <script src="scripts/currentdate.js"></script> 
+            <script src="scripts/hamburger.js"></script>  
+            <script src="scripts/windchill.js"></script> 
+            <script src="scripts/towndata.js"></script> 
+            
+</body>
+</html>
