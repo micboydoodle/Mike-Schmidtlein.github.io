@@ -72,7 +72,7 @@ main figure.heroimage {
     margin-right: auto;
 }
 main figure.heroimage img {
-    width:100%;
+    width:50%;
     margin: auto;
     display: block;
 }
@@ -164,6 +164,12 @@ fieldset h2 {
     text-align: center;
 }
 /* ----- HOME PAGE ----- */
+main figure.homeImage img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 article#homeTowns div:nth-of-type(1) {
     order: 3;
 }
