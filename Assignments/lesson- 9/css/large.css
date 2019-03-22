@@ -73,7 +73,7 @@
         }
         section.weathersummary {
             position: absolute;
-            top: 250px;
+            top: 300px;
             left: 300px;
             text-align: center;
             line-height: 0px;
