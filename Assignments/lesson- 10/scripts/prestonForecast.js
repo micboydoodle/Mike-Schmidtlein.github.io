@@ -9,7 +9,6 @@ weathForecast.onload = function() {
     var listDay = [];
     var listIconType = [];
     var listTempurature = [];
-    
 
     for(i = 0; i < forecast.list.length; ++i) {
         time = forecast.list[i].dt_txt;
