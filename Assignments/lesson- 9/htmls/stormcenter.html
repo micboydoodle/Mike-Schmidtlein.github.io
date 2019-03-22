@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" > 
+    <title>South East Idaho Weather | Gallery Page</title>
+    <meta name="author" content="Mike Schmidtlein | CIT 230 BYU-Idaho">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+</head>
+<body>
+    <header>
+        <img src="https://www.freeiconspng.com/uploads/weather-icon-png-5.png" width="350" alt="Weather Drawing Icon">
+        <div class="Title">
+            <h2>South East Idaho Weather</h2>
+            <div class="motto">Weather You Can Count On</div>
+        </div> 
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">☰</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Haven</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                    
+            </ul>   
+        </nav>  
+        <main>
+            <h2>Storm Center</h2>
+            <form action="thanks.html">
+                <fieldset>
+                    <h2>Contact Information</h2>
+                    <label for="fullname">Full Name (required):</label>
+                    <input type="text" name="fullname" pattern="[A-Za-z ]{1, 26}"><br/>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="email@emaildomain.com"><br/>
+                    <label for="phone">Phone Number (required):</label>
+                    <input type="tel" name="phone"><br/>
+                    <label for="zipcode">Zip Code (required):</label>
+                    <input type="number" name="zipcode"><br/>
+                </fieldset>
+                <fieldset>
+                    <h2>Weather Information</h2>
+                    <label for="date">Storm Date:</label>
+                    <input type="date" name="date"><br/>
+                    <label for="type">Storm Type:</label>
+                    <input type="text" name="type" list="stormtype">
+                    <datalist id="stormtype"><br/>
+                        <option value="Flash Flood">Flash Flood</option>
+                        <option value="Hail">Hail</option>
+                        <option value="Hurricane">Hurricane</option>
+                        <option value="Thunderstorm">Thunderstorm</option>
+                        <option value="Tornado">Tornado</option>
+                    </datalist><br/>
+                    <label for="severity">Storm Severity (range 1-10):</label><br/>
+                    <input type="range" id="svin" name="severity" value="1" min="1" max="10">
+                    <span id="svout"></span><br/>
+                    <label for="region">Region:<br/>
+                    <select id="region" class="box">
+                        <option>--Select Region--</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                    </select>
+                </label><br/>
+                    <label for="danger">User in-Danger:</label><br/>
+                    <input type="radio" name="danger" value="yes"> Yes <br/>
+                    <input type="radio" name="danger" value="maybe"> Maybe <br>
+                    <input type="radio" name="danger" value="no"> No <br>
+                    <label for="comments">Additional Information: </label><br/>
+                    <textarea name="comments" id="" rows="5" cols="20"></textarea><br>
+                    <input type="submit" class="submitButton">
+                </fieldset>
+            </form>
+        </main>
+    <footer>
+    
+                <div class="footerinfo">
+                   <p> ©2019 South East Idaho Weather | Attributions | Mike Schmidtlein
+                       </p> 
+                       <span id="currentdate"></span>
+                </div>   
+                </footer>   
+                <script src="scripts\severityslider.js"></script> 
+                <script src="currentdate.js"></script> 
+                <script src="hamburger.js"></script>  
+                
+    </body>
+    </html>
