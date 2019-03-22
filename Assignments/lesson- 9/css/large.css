@@ -132,7 +132,7 @@
         img.articleimage {
             display: block;
             float: right;
-            width: 25%;
+            width: %;
             margin: 20px;
             box-shadow: 0 0 20px black;
         }
@@ -143,6 +143,15 @@
             text-align: center;
             width: 100%;
         }
+        /* ---------------------------------------- Home -------------------------------------------- */
+    article#homeTowns {
+        border: none;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 3%;
+        margin-top: 30px;
+}
         /*------------------------------------------Footer--------------------------------------------*/
         footer aside{
             display: grid;
