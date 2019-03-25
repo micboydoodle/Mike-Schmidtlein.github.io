@@ -143,7 +143,6 @@ h2 {
 }
 label {
 color: #6bbaa7;
-font-size: 25;
 }
 fieldset h2 {
     text-align: left;
@@ -223,7 +222,6 @@ img.homePhoto {
 /*---------event----------*/
 section.events {
     display: block;
-    position: center;
     font-size: 1.5rem;
     text-align: center;
     border: 1px solid black;
