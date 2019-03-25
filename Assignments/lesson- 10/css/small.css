@@ -242,6 +242,70 @@ section.events h2 {
     line-height: 1;
     
 }
+/* ----- HOME PAGE ----- */
+main figure.homeImage img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+article#homeTowns div:nth-of-type(1) {
+    order: 3;
+}
+
+article#homeTowns div:nth-of-type(2) {
+    order: 1;
+}
+
+article#homeTowns div:nth-of-type(3) {
+    order: 2;
+}
+article#homeTowns {
+    border: none;
+    text-align: center;
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    grid-gap: 3%;
+    margin-top: 30px;
+    background-color: white;
+    
+}
+
+#homeTowns div {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.4);
+    grid-gap: 10px;
+    min-height: 200px;
+    
+}
+
+#homeTowns div img {
+    width: 95%;
+    height: auto;
+}
+
+#homeTowns h5 {
+    font-size: 1.2rem;
+    color: black;
+}
+
+#homeTowns h6 {
+    font-size: .9rem;
+    color: black;
+    margin: 10px 0 10px 0;
+}
+
+#homeTowns p {
+    font-size: .9rem;
+    margin: 0;
+    padding: 10px;
+}
+
+img.homePhoto {
+    max-width: 80%;
+    margin-bottom: 10px;
+}
 /*--------------------------------------Footer--------------------------------------*/
 div.mapouter {
     display: block;

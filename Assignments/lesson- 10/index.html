@@ -3,17 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" > 
-    <title>South East Idaho Weather | Thank You Page</title>
+    <title>South East Idaho Weather Home</title>
     <meta name="author" content="Mike Schmidtlein | CIT 230 BYU-Idaho">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    
 </head>
 
-</head>
 <body>
+    <!--Header-->>
     <header>
         <img src="https://www.freeiconspng.com/uploads/weather-icon-png-5.png" width="350" alt="Weather Drawing Icon">
         <div class="Title">
@@ -21,10 +22,12 @@
             <div class="motto">Weather You Can Count On</div>
         </div> 
     </header>
-    <nav>
+    <!--Navigation-->
+    <div class="navigationMenu"></div>
+         <nav>
         <button onclick="toggleMenu()">☰</button>
             <ul id="primaryNav" class="hide">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li class="active"><a href="preston.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
@@ -33,19 +36,32 @@
                     
             </ul>   
         </nav>  
+    
+    <!--Content-->
     <main> 
-        <h2>Thank You!</h2>
-        <div class="thankyoupage">   
-        <p>Thank you for taking the time to fill out and send us this information.  Your information has been recorded and will go to help people in this area.</p>
-            <a href="stormcenter.html" id="thankyou">Return to Storm Center</a>
-        </div> 
+        <div class="homeImage">
+            <figure class="homeImage">
+                <img src="images/idaho-map-600.png" alt="Idaho">
+            </figure>
+        </div>
+
+        <article id="homeTowns">
+
+        </article>
+        
 
     </main>
+  
+  
+  
+    <!--Footer-->
     <footer>
-            <aside>
-                    <div class="contactInfo">
+        
+            <div class="contactInfo">
                     <h3>South East Idaho Weather</h3>
                    <div>
+                    <img src="https://png.pngtree.com/svg/20170401/contact_us_circle_538815.png" alt="Phone Icon" class="phoneicon">
+                    <div class="phone"><p>999.999.9999</p></div> <br>
                     <img src="https://image.flaticon.com/icons/svg/80/80599.svg" alt="email icon" class="emailicon">
                     
                     <div class="email"><p>seidahoweather@idw.com</P></div> <br>
@@ -55,20 +71,18 @@
                         <img src="https://png.pngtree.com/element_our/sm/20180301/sm_5a9797d302f17.png" alt="twitter icon" class="ticon">
                         <img src="https://png.pngtree.com/element_our/sm/20180301/sm_5a9797d5c93d3.png" alt="Youtube Icon" class="yticon">
                     </div>
-                </div>
-                    </div>
-                    
-               
-                </aside>   
-                <div class="footerinfo">
-                   <p> ©2019 South East Idaho Weather | Attributions | Mike Schmidtlein
-                       </p> 
-                       <span id="currentdate"></span>
-                </div>   
-                </footer>    
-                <script src="currentdate.js"></script> 
-                <script src="hamburger.js"></script>  
-                
-    </body>
-    </html>
-    
+                </div>  
+
+            <div class="footerinfo">
+               <p> ©2019 South East Idaho Weather | Attributions | Mike Schmidtlein
+                   </p> 
+                   <span id="currentdate"></span>
+            </div>   
+            </footer>
+    <!--Scripts-->    
+            <script src="scripts/currentdate.js"></script> 
+            <script src="scripts/hamburger.js"></script>   
+            <script src="scripts/towndata.js"></script> 
+            
+</body>
+</html>
