@@ -1,0 +1,44 @@
+@media only screen and (min-width: 768px) {
+    /*----------------------------------Header---------------------------------*/
+    
+    
+    /*----------------------------------Main---------------------------------*/
+    div.galleryImages {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    
+    /*------5 day forcast------*/
+    .forecast {
+        display: block;
+        margin: 40px;
+    }
+    
+    table {
+        margin: 0 auto;
+    }
+    
+    th {
+        background-color: #fba100;
+        color: black;
+        font-size: .9rem;
+    }
+    
+    table, th, td {
+        border: 2px solid rgb(88, 88, 88);
+        border-collapse: collapse;
+        text-align: center;
+        padding: 10px;
+      }
+    
+      .forecastImg {
+          width: 40%;
+      }
+    
+      .tableTemps {
+          font-size: 1rem;
+      }
+    
+    /*----------------------------------Footer---------------------------------*/
+    
+    }
