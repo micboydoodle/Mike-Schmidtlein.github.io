@@ -307,11 +307,12 @@ img.homePhoto {
 /*--------------------------------------Footer--------------------------------------*/
 div.mapouter {
     display: block;
-    width: 100%;
+    width: %;
 }
 footer {
     background-color: #b6a19e;
     text-align: center; 
+    line-height: 12px;
 }
 div.footerspace {
     line-height: 5px;
