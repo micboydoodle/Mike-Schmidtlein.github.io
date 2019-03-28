@@ -28,6 +28,7 @@ div.Title {
     display: inline-block;
     text-align: center;
 }
+/*---------------------navigation------------------------------*/
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
