@@ -307,7 +307,7 @@ img.homePhoto {
 /*--------------------------------------Footer--------------------------------------*/
 div.mapouter {
     display: block;
-    width: %;
+    width: 100%;
 }
 footer {
     background-color: #b6a19e;
@@ -319,6 +319,9 @@ div.footerspace {
 }
 .icon {
     width: 1em;
+}
+div.contactInfo {
+    align-self: center;
 }
 div.footerinfo {
     background-color: #fba100;
