@@ -55,6 +55,27 @@ nav ul.hide {
     bottom: 120px;
     left: 650px;
 }
+
+/*--HOME PAGE--*/
+
+.homebox1 {
+    display: flex;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    width: 50%;
+}
+
+.homebox1 img {
+    width: 40rem;
+    position: relative;
+    right: 100px;
+
+}
+
+.templeactivites img {
+    width: 35rem;
+}
 /*--FOOTER--*/
     
 }

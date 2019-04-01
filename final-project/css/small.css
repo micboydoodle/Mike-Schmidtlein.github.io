@@ -112,6 +112,38 @@ nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
     width: 4em;
 }
 
+
+/*--HOME PAGE--*/
+
+h1 {
+    display: block;
+    text-align: center;
+    color: #C06014;
+}
+
+.homebox1 img {
+    display: block;
+    width: 100%;
+}
+
+.homebox1 {
+    display: block;
+    text-align: center;
+}
+
+
+.templeactivites {
+    border: none;
+    text-align: center;
+    display: grid;
+    margin-top: 30px;
+    background-color: white;
+    color: #C06014;
+    font-size: large;
+}
+.templeactivites img {
+    width: 18rem;
+}
 /*--FOOTER--*/
 
 footer {

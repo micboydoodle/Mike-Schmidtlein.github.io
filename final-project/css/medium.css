@@ -3,6 +3,37 @@
 
 /*--HEADER--*/
 
+/*--HOME PAGE--*/
+
+.homebox1 {
+    display: flex;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+
+.homebox1 img {
+    display: block;
+    margin-right: 2rem;
+    width: 50%; 
+    height: 30%;
+}
+
+.homebox1info {
+    display: block;
+    text-align: left;
+    position: relative;
+    bottom: 27px;
+}
+
+.templeactivites {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.templeactivites img {
+    width: 18rem;
+}
+
 /*--FOOTER--*/
 
 aside {
@@ -12,6 +43,7 @@ aside {
 .address {
     display: inline-block;
 }
+
 .address p {
     text-align: left;
     position: relative;
