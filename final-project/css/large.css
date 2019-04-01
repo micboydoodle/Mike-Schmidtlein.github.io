@@ -48,6 +48,13 @@ nav ul.hide {
     bottom: 120px;
     left: 1250px;
 }
+
+.container h5 {
+    position: relative;
+    display: inline-block;
+    bottom: 120px;
+    left: 650px;
+}
 /*--FOOTER--*/
     
 }
