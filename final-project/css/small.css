@@ -1,0 +1,159 @@
+/*--BODY--*/
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    min-width: 320px;
+}
+a {
+    color: black;
+}
+
+/*--HEADER--*/
+
+header {
+    display: flex;
+    margin: 10px auto;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+	vertical-align: sub;
+    margin: 10px;
+    display: inline-block;
+    max-width: 85px;
+}
+
+.headings {
+    display: inline-block;
+    text-align: center;
+}
+
+header h1 {
+    color: black;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/*--NAVIGATION--*/
+nav {
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: #CDCDCD;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+/*Remove default link underline and color*/
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    padding: .8rem 2%;
+    border-top: 1px solid rgba(0,0,0,0.4);
+}
+
+/*wayfinding active link */
+nav ul li.active a {
+    background-color: #C06014;
+    font-style: italic;
+}
+
+/* Change the link color on hover */
+nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
+
+/*--BANNER--*/
+.banner {
+    display: flex;
+    background-color: #EDDBCD;
+}
+
+.container {
+    display: inline-block;
+}
+
+.container h1 {
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+
+}
+
+.container h4 {
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+}
+
+.logo {
+    width: 4em;
+}
+
+/*--FOOTER--*/
+
+footer {
+    font-size: smaller;
+    background-color: #CDCDCD;
+    color: black;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 30px;
+}
+
+p.footer-bar {
+    padding-bottom: 30px;
+}
+
+footer h3 {
+    font-size: 1.25rem;
+    padding-top: 20px;
+}
+
+.facebookicon {
+    width: 2em;
+}
+
+.twittericon {
+    width: 2em;
+}
+
+.instagramicon {
+    width: 2em;
+}
+
+.youtubeicon {
+    width: 2em;
+}
+
+/*------ Clearfix: Force an Element not to collapse ------*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

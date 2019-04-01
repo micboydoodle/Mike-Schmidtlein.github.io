@@ -1,4 +1,53 @@
 @media only screen and (min-width: 1280px) {
 
+    /*--BODY--*/
+
+/*--HEADER--*/
+
+/*--NAVIGATION--*/
+
+nav button {display: none;}
+    
+nav ul {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+nav ul li a {
+    font-size: 1.5em;
+    border: none;
+    padding: .6rem 1rem;
+}
+
+nav ul.hide {
+    display: inline-flex;
+    margin: auto;
+}
+
+/*--BANNER--*/
+
+.banner {
+    height: 100px;
+}
+
+.container h1 {
+    display: none;
+}
+
+.logo {
+    position: relative;
+    bottom: 43px;
+    left: 500px;
+    width: 8em;
+}
+
+.container h4 {
+    position: relative;
+    bottom: 120px;
+    left: 1250px;
+}
+/*--FOOTER--*/
     
 }

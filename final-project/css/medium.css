@@ -1,4 +1,28 @@
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 600px) {
+/*--BODY--*/
 
+/*--HEADER--*/
+
+/*--NAVIGATION--*/
+
+/*--FOOTER--*/
+
+aside {
+    display: inline-block;
+}
+
+.address {
+    display: inline-block;
+}
+.address p {
+    text-align: left;
+    position: relative;
+    bottom: 26px;
+    right: 100px;
+}
+
+.contact {
+    display: inline-block;
+}    
     
 }
