@@ -79,6 +79,16 @@ nav ul.hide {
     width: 20rem;
     
 }
+
+/*--RESERVATION--*/
+
+.reservationheading {
+    text-align: center;
+    font-size: 2rem;
+    color: #C06014;
+    display: block;
+}
+
 /*--FOOTER--*/
     
 }
