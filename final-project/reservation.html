@@ -40,7 +40,48 @@
             </div>
 
     <!-- CONTENT -->    
-       
+    <h2 class="reservationheading">Reservations</h2> 
+    <form action="thanks.html" method="get" enctype="multipart/form-data" name="reservation" id="userReserv">
+        <fieldset>
+                <legend>Reservation Information</legend>
+                <label>Reservation Location:</label>
+                    <input type="text" name="location" required pattern="[A-Za-z\s]{5,}">
+                <label>Requested Date:</label>
+                    <input type="date" name="date">
+                <label>Number of Requested rooms:</label> 
+                <input type="number" name="num">
+                <label>Room Layout:</label>
+                        <div class="custom-select">
+                            <select name="region">
+                                <option value="0" disabled selected>--Select Layout--</option>
+                                <option value="1">Single Twin bed</option>
+                                <option value="2">Double Twin bed</option>
+                                <option value="3">Single Queen</option>
+                                <option value="4">Double Queen</option>                    
+                            </select>
+            </fieldset>
+        <fieldset>
+            <legend>Customer Information</legend>
+            <label>Full Name:</label>
+                <input type="text" name="full_name" required pattern="[A-Za-z\s]{5,}">
+            <label>Email:</label>
+                <input type="email" name="email" required placeholder="email@domain.com">
+            <label>Phone number:</label>
+                <input type="tel" name="phone" required placeholder="###-###-####" pattern="[0-9]{3}[ -][0-9]{3}[ -][0-9]{4}">
+            <label>Home State or Province (USA or Canada), or Country:</label>
+                <input type="text" name="home" required> 
+        </fieldset>
+        <fieldset>
+            <legend>Comments or <br> Special Accommodations</legend>
+            <textarea name="comments"></textarea>
+        </fieldset>
+
+        <div class="buttonHolder">
+            <input type="submit" value="Submit" class="submitButton">
+            <input name="redirect" type="hidden" value="thanks.html">
+        </div>
+
+</form>
 
     <!-- JSON -->
             
