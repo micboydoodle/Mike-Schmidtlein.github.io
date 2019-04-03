@@ -122,27 +122,33 @@ h1 {
 }
 
 .homebox1 img {
-    display: block;
+    display: flex;
     width: 100%;
+    max-height: 300px;
 }
 
 .homebox1 {
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: space-evenly;
+    flex-flow: wrap;
 }
 
 
 .templeactivites {
     border: none;
     text-align: center;
-    display: grid;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
     margin-top: 30px;
     background-color: white;
     color: #C06014;
     font-size: large;
 }
 .templeactivites img {
-    width: 18rem;
+    width: 100%;   
+    display: block;
 }
 
 /*--RESERVATION--*/

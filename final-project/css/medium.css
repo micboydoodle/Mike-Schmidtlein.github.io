@@ -17,6 +17,7 @@
     margin-right: 2rem;
     width: 50%; 
     height: 30%;
+    max-height: none;
 }
 
 .homebox1info {
@@ -28,6 +29,8 @@
 
 .templeactivites {
     grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    align-items: baseline;
 }
 
 .templeactivites img {
