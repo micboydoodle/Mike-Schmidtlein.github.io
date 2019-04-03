@@ -64,9 +64,11 @@ nav ul.hide {
     margin: 0 auto;
     line-height: 1.5;
     width: 50%;
+    align-items: center;
 }
 
 .homebox1 img {
+    display: block;
     width: 40rem;
     position: relative;
     right: 100px;
