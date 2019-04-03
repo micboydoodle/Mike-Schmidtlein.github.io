@@ -45,7 +45,7 @@
         <fieldset>
                 <legend>Reservation Information</legend>
                 <label>Reservation Location:</label>
-                    <input type="text" name="location" required pattern="[A-Za-z\s]{5,}">
+                    <input type="text" name="location" required placeholder="Salt Lake City" pattern="[A-Za-z\s]{5,}">
                 <label>Requested Date:</label>
                     <input type="date" name="date">
                 <label>Number of Requested rooms:</label> 
@@ -63,13 +63,13 @@
         <fieldset>
             <legend>Customer Information</legend>
             <label>Full Name:</label>
-                <input type="text" name="full_name" required pattern="[A-Za-z\s]{5,}">
+                <input type="text" name="full_name" required placeholder="Full Name" pattern="[A-Za-z\s]{5,}">
             <label>Email:</label>
                 <input type="email" name="email" required placeholder="email@domain.com">
             <label>Phone number:</label>
-                <input type="tel" name="phone" required placeholder="###-###-####" pattern="[0-9]{3}[ -][0-9]{3}[ -][0-9]{4}">
-            <label>Home State or Province (USA or Canada), or Country:</label>
-                <input type="text" name="home" required> 
+                <input type="tel" name="phone" required placeholder="123-456-7890" pattern="[0-9]{3}[ -][0-9]{3}[ -][0-9]{4}">
+            <label>Home State, Province (USA or Canada) or Country:</label>
+                <input type="text" name="home" placeholder="Utah"> 
         </fieldset>
         <fieldset>
             <legend>Comments or <br> Special Accommodations</legend>
