@@ -11,6 +11,18 @@ a {
     color: black;
 }
 
+h2 {
+    text-align: center;
+    color: #C06014;
+}
+
+/*--THANK YOU--*/
+
+.thankyou {
+    display: block;
+    margin-top: 5rem;
+}
+
 /*--HEADER--*/
 
 header {
@@ -222,6 +234,144 @@ textarea {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+/*--CONTACT PAGE--*/
+
+
+.contactpage {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    margin-top: 2rem;
+}
+
+.contactform {
+    text-align: left;
+}
+
+.mapouter {
+    display: flex;
+    width: 40rem;
+    align-items: center; 
+}
+
+.gmap_canvas {
+    display: block;
+}
+
+/*--SERVICES--*/
+
+.servicepage {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.servicepage p {
+    line-height: 1.5rem;
+    margin-left: 2rem;
+}
+
+.servicepage h3 {
+    text-decoration: underline;
+    color: #C06014;
+}
+
+.servicepage h4 {
+    color: #C06014;
+    margin-left: 2rem;
+}
+
+.servicepage a {
+    margin-left: 3rem;
+}
+
+.servicepage img {
+    width: 20rem;
+}
+
+.servicesamenities {
+    display: flex;
+    flex-direction: column
+}
+
+.receptionmissionary {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*--RECEPTION PAGE--*/
+
+.receptioncontiner {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly 
+}
+
+.receptioncontiner h2 {
+    text-align: left;
+}
+.receptioncontiner h3 {
+    color: #C06014;
+}
+.receptioncontiner p {
+    margin-left: 2rem;
+    line-height: 1.5rem;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+}
+
+/*--MISSIONARY PAGE--*/
+
+.missionarypage {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.missionarypage h3 {
+    color: #C06014;
+    margin-left: 1rem;
+}
+
+.missionarypage p {
+    margin-left: 2rem;
+    line-height: 1.5rem;
+}
+
+.missionarypage figcaption {
+    color: #C06014;
+}
+
+.roomimages {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+}
+
+.amenties {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+
+}
+
+.missionaryform {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+}
+
+
 /*--FOOTER--*/
 
 footer {

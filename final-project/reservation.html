@@ -41,7 +41,7 @@
 
     <!-- CONTENT -->    
     <h2 class="reservationheading">Reservations</h2> 
-    <form action="thanks.html" method="get" enctype="multipart/form-data" name="reservation" id="userReserv">
+    <form action="thankyou.html" method="get" enctype="multipart/form-data" name="reservation" id="userReserv">
         <fieldset>
                 <legend>Reservation Information</legend>
                 <label>Reservation Location:</label>
@@ -67,7 +67,7 @@
             <label>Email:</label>
                 <input type="email" name="email" required placeholder="email@domain.com">
             <label>Phone number:</label>
-                <input type="tel" name="phone" required placeholder="123-456-7890" pattern="[0-9]{3}[ -][0-9]{3}[ -][0-9]{4}">
+                <input type="tel" name="phone" placeholder="123-456-7890"">
             <label>Home State, Province (USA or Canada) or Country:</label>
                 <input type="text" name="home" placeholder="Utah"> 
         </fieldset>
@@ -78,7 +78,7 @@
 
         <div class="buttonHolder">
             <input type="submit" value="Submit" class="submitButton">
-            <input name="redirect" type="hidden" value="thanks.html">
+            <input name="redirect" type="hidden">
         </div>
 
 </form>
