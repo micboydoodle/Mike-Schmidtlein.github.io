@@ -443,6 +443,7 @@ textarea {
 
 .bottomcontainer h5 {
     color: red;
+    text-align: center;
 }
 
 .bottomcontainer h3 {
@@ -465,6 +466,12 @@ textarea {
     flex-direction: column;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: #EDDBCD;
+}
+
 .events {
     display: flex;
     flex-direction: column;
@@ -474,6 +481,36 @@ textarea {
 .history {
     display: flex;
     flex-direction: column;
+}
+
+/*--References--*/
+
+.references {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.references h2 {
+    margin-left: .5rem;
+    text-align: left;
+}
+
+.references h3 {
+    color: #C06014;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.references h4 {
+color: #C06014;
+text-align: center;
+}
+
+.references p {
+    margin-left: 2rem;
+    line-height: 1.5rem;
 }
 
 /*--FOOTER--*/
