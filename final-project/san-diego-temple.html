@@ -40,36 +40,64 @@
             </div>
 
     <!-- CONTENT -->    
-       <div class="templepagecontainer">
-           <div class="temple">
-               <img src="images/san-diego-temple.jpg" alt="san-diego-temple">
-               <h2>San Diego Temple</h2>
-               <h4>For more information on the San Diego Temple please follow the link</h4>
-               <a href="san-diego-temple.html" id="full-time">Procees to Temple Page</a>  
+       <div class="templecontainer">
+           <img src="images/san-diego-temple.jpg" alt="san-diego-temple">
+           <div class="templeinfo">
+                <h4>Address</h4>
+                    <p>7474 Charmant Dr <br>
+                        San Diego CA 92122-5000 <br>
+                        United States</p>
+                <h4>Telephone</h4>
+                    <p>(1) 858-622-0991</p>
+                <h4>Email</h4>
+                    <p>sandiegotemple@ldsmail.com</p>
+           </div>     
+           <div class="weather">
+                <h3>Current Weather</h3>
+                    <p>Currently: <span id="currentTemputare"></span>°F</p>
+                    <p>High: <span id="high"></span>°F</p>
+                    <p>Wind Chill: <span id="windChill"></span>°F</p>
+                    <p>Humidity: <span id="humidity"></span>%</p>
+                    <p>Wind Speed: <span id="windSpeed"></span>mph</p>
            </div>
-           <div class="temple">
-                <img src="images/rexburg-temple.jpg" alt="rexburg-temple">
-                <h2>Rexburg Temple</h2>
-                <h4>For more information on the Rexburg Temple please follow the link</h4>
-                <a href="rexburg-temple.html" id="full-time">Procees to Temple Page</a>
-           </div>
-           <div class="temple">
-                <img src="images/provo-city-temple.jpg" alt="provo-city-temple">
-                <h2>Provo City Center Temple</h2>
-                <h4>For more information on the Provo City Center Temple please follow the link</h4>
-                <a href="provo-city-temple.html" id="full-time">Procees to Temple Page</a>
-           </div>
-           <div class="temple">
-                <img src="images/seattle-temple.jpg" alt="seattle-temple">
-                <h2>Seattle Temple</h2>
-                <h4>For more information on the Seattle please follow the link</h4>
-                <a href="seattle-temple.html" id="full-time">Procees to Temple Page</a>
-           </div>
-       </div>
-
-    <!-- JSON -->
-            
-
+           
+    </div>
+    <div class="bottomcontainer">
+            <div class="ordinances">
+                    <h3>Endowment Schedule</h3>
+                    <h5>To schedule living ordinances (such as own endowment or sealing) or group visits, please call:</h5>
+                         <p>
+                            9:00 AM Walk-ins and Appointments <br>
+                            9:30 AM Walk-ins and Appointments <br>
+                            10:00 AM Walk-ins and Appointments <br>
+                            11:00 AM Walk-ins and Appointments <br>
+                            12:00 PM Walk-ins and Appointments <br>
+                            1:00 PM Walk-ins and Appointments <br>
+                            2:00 PM Walk-ins and Appointments <br>
+                            3:00 PM Walk-ins and Appointments <br>
+                            4:00 PM Walk-ins and Appointments <br>
+                            5:00 PM Walk-ins and Appointments <br>
+                            6:00 PM Walk-ins and Appointments <br>
+                            6:30 PM Walk-ins and Appointments <br>
+                            7:00 PM Walk-ins and Appointments <br>
+                            7:30 PM Walk-ins and Appointments <br>
+                         </p>
+                
+        <!-- JSON --> 
+               <section class="info">   
+                    <h3>Temple Closures</h3>
+                </section>
+        <!-- CONTENT -->    
+                <div class="history">
+                    <h4>Milestones</h4>
+                        <p>
+                                7 April 1984 - Announced <br>
+                                27 February 1988 - Groundbreaking <br>
+                                25 April 1993 - Dedicated <br>
+                        </p>
+                </div>
+           </div>  
+    </div>        
     <!-- FOOTER -->    
         <footer>
             <aside>
@@ -96,6 +124,7 @@
         
         <script src="js/currentdate.js"></script>
         <script src="js/hamburger.js"></script>
+        <script src="js/sdweatherinfo.js"></script>
  
     </body>
 </html>
