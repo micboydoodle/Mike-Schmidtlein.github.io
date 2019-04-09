@@ -21,7 +21,7 @@ weather.onload = function () {
 
 var eventsSection = document.querySelector(".info");
 
-                var requestURL = "https://raw.githubusercontent.com/micboydoodle/micboydoodle.github.io/master/final-project/js/temple.json";
+                var requestURL = "https://micboydoodle.github.io/final-project/js/temple.json";
                 var request = new XMLHttpRequest();
                 request.open("GET", requestURL);
                 request.responseType = "json";

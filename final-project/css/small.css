@@ -388,6 +388,10 @@ textarea {
     padding-bottom: 1rem;
 }
 
+.templepagecontainer img {
+    max-width: 100%;
+}
+
 .temple h4 {
     margin-left: 1rem;
 }
@@ -402,6 +406,7 @@ textarea {
     display: flex;
     flex-flow: wrap;
     justify-content: space-evenly;
+    margin-top: 2rem;
 }
 
 .templecontainer h4 {
@@ -414,7 +419,6 @@ textarea {
 
 .templecontainer img {
     max-width: 100%;
-    height: auto;
 }
 
 .templecontainer p {

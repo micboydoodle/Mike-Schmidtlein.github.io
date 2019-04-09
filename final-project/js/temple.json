@@ -2,8 +2,7 @@
     "temples" : [
         {
             "name": "san-diego",
-            "info" : [
-              "Temple Closures",
+            "events" : [
               "2019",
               "Thurday, 4 July 2019",
               "Monday, 30 September 2019 - Monday, 11 November 2019",
@@ -14,8 +13,7 @@
           },
           {
             "name": "rexburg",
-            "info" : [
-                "Temple Closures",
+            "events" : [
                 "2019",
                 "Monday, 15 April 2019- Monday, 29 April 2019",
                 "Thurday, 4 July 2019",
@@ -29,8 +27,7 @@
           },
           {
             "name": "provo-city",
-            "info" : [
-                "Temple Closures",
+            "events" : [
                 "2019",
                 "Sunday, 23 June 2019 - Saturday, 6 July 2019",
                 "Wednesday, 24 July 2019",
@@ -44,8 +41,7 @@
           },
           {
             "name": "seattle",
-            "info" : [
-                "Temple Closures",
+            "events" : [
                 "2019",
                 "Thurday, 4 July 2019",
                 "Sunday, 18 August 2019 - Monday, 2 September 2019",
