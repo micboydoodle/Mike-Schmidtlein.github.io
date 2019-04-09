@@ -465,7 +465,7 @@ textarea {
     flex-direction: column;
 }
 
-.info {
+.events {
     display: flex;
     flex-direction: column;
     background-color: #EDDBCD;

@@ -3,7 +3,6 @@
         {
             "name": "san-diego",
             "events" : [
-              "2019",
               "Thurday, 4 July 2019",
               "Monday, 30 September 2019 - Monday, 11 November 2019",
               "Wednesday, 27 November 2019 - Thursday, 28 November 2019",
@@ -14,7 +13,6 @@
           {
             "name": "rexburg",
             "events" : [
-                "2019",
                 "Monday, 15 April 2019- Monday, 29 April 2019",
                 "Thurday, 4 July 2019",
                 "Saturday, 27 July 2019",
@@ -28,7 +26,6 @@
           {
             "name": "provo-city",
             "events" : [
-                "2019",
                 "Sunday, 23 June 2019 - Saturday, 6 July 2019",
                 "Wednesday, 24 July 2019",
                 "Saturday, 5 October 2019",
@@ -42,7 +39,6 @@
           {
             "name": "seattle",
             "events" : [
-                "2019",
                 "Thurday, 4 July 2019",
                 "Sunday, 18 August 2019 - Monday, 2 September 2019",
                 "Saturday, 5 October 2019",
